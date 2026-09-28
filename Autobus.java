@@ -20,4 +20,21 @@ public class Autobus{
         
         return anhänger;
     }
+    
+    //Setter
+    
+    public void setKennzeichen(String neuKennzeichen){
+        
+        kennzeichen = neuKennzeichen;
+    }
+    
+    public void setSitzplätze(int neuSitzplätze){
+    
+        sitzplätze = neuSitzplätze;
+    }
+    
+    public void setAnhänger(boolean neuAnhänger){
+    
+        anhänger = neuAnhänger;
+    }
 }
