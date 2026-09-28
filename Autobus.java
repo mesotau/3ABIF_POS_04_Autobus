@@ -4,6 +4,26 @@ public class Autobus{
     private int sitzplätze;
     private boolean anhänger;
     
+    //Konstruktoren
+    
+    //Konstruktor01:
+    
+    public Autobus(String neuKennzeichen, int neuSitzplätze, boolean neuAnhänger){
+    
+        setKennzeichen(neuKennzeichen);
+        setSitzplätze(neuSitzplätze);
+        setAnhänger(neuAnhänger);
+    }
+    
+    //Konstruktor02:
+    
+    public Autobus(){
+    
+        setKennzeichen("W-1234A");
+        setSitzplätze(29);
+        setAnhänger(false);
+    }
+    
     //Getter
     
     public String getKennzeichen(){
